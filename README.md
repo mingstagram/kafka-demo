@@ -74,9 +74,9 @@ POST http://localhost:8080/order?userId=minguk
 2. 콘솔 로그 확인
 
 ```
-📌 사용자 행동 로그 수신: 클릭 - 사용자: minguk
-💰 포인트 적립 처리 시작: 주문완료 - 사용자: minguk
-📲 문자 전송 처리 시작: 주문완료 - 사용자: minguk
+사용자 행동 로그 수신: 클릭 - 사용자: minguk
+포인트 적립 처리 시작: 주문완료 - 사용자: minguk
+문자 전송 처리 시작: 주문완료 - 사용자: minguk
 ```
 
 3. Kafka CLI Consumer로 메시지 Replay 확인
